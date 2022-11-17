@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    text-decoration: none;
+    color: black;
+    list-style: none;
+}
+body{
+    font-family: Comfortaa;
+}
+
+/* ---Colapsar modulos para concentracion de trabajo--- */
+/* header{display: none !important;} */
+/* .section1-contacto{display: none !important;} */
+/* .section2-servicios{display: none !important;} */
+/* .section3-beneficios{display: none !important;} */
+/* .seccion-footer{display: none !important;} */
+
+/* Edicion de botones */
+
+
+
+
+
+
+/*____________________________________________________________________________________________________*/
+.redes-sociales > ul{
+    display: flex;
+    justify-content: center;
+}
+.titulo{
+    text-align: center;
+    letter-spacing: 0.25em;
+
+}
+.titulo > .titulo1{
+    font-size: 28px;
+    font-weight: 700;
+}
+.titulo > .titulo2{
+    font-size: 13px;
+    font-weight: 300;
+}
+.titulo > .titulo3{
+    font-size: 9px;
+    font-weight: 300;
+}
+
+.navbar > ul{
+    display: none;
+}
+
+.burger-menu{
+    position: fixed;
+    top: 30px;
+    right: 20px;
+}
+
+.burger-links{
+    display: none;
+}
+
+
+
