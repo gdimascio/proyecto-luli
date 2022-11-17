@@ -40,16 +40,16 @@
         </div>
 
         <nav class="navbar">
-            <ul>
                 <li><a href="#">HOME</a></li>
                 <li><a href="#">BEBÉ NIÑA</a></li>
                 <li><a href="#">BEBÉ NIÑO</a></li>
                 <li><a href="#">ACCESORIOS</a></li>
                 <li><a href="#">SALE</a></li>
-            </ul>
         </nav>
 
-        <a href="javascript:void(0);" class="burger-menu" onclick="burger_menu()"><i class="fas fa-bars"></i></a>
+        <a href="javascript:void(0);" class="burger-menu" onclick="display_menu('_burger-links')"><i class="fas fa-bars"></i></a>
+
+        <a href="#" class="cart-menu" onclick="display_menu()"><i class="fa-solid fa-bag-shopping"></i></a>
 
         <div class="burger-links" id="_burger-links">
             <li><a href="#">HOME</a></li>
@@ -59,6 +59,22 @@
             <li><a href="#">SALE</a></li>
         </div>
 
+        <div>
+            <div class="intro-slide"><a href="#"><img src="./public/img/img1.png" alt=""></a></div>
+            <div class="intro-slide"><a href="#"><img src="./public/img/img2.png" alt=""></a></div>
+            <div class="intro-slide"><a href="#"><img src="./public/img/img3.png" alt=""></a></div>
+            <div class="intro-slide"><a href="#"><img src="./public/img/img4.png" alt=""></a></div>
+            <div class="intro-slide"><a href="#"><img src="./public/img/img5.png" alt=""></a></div>
+            
+            <div>
+                <ul class="dots">
+                    <li class="active"><span></span></li>
+                    <li class=""><span></span></li>
+                    <li class=""><span></span></li>
+                    <li class=""><span></span></li>
+                </ul>
+            </div>
+        </div>
     </header>
     
 
