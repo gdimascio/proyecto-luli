@@ -13,10 +13,12 @@ body{
 
 /* ---Colapsar modulos para concentracion de trabajo--- */
 /* header{display: none !important;} */
-/* .section1-contacto{display: none !important;} */
-/* .section2-servicios{display: none !important;} */
-/* .section3-beneficios{display: none !important;} */
-/* .seccion-footer{display: none !important;} */
+/* .seccion1-looks{display: none !important;} */
+.seccion2-ofertas{display: none !important;}
+.seccion3-misc{display: none !important;}
+.seccion4-contato{display: none !important;}
+footer{display: none !important;}
+
 
 /* Edicion de botones */
 
@@ -27,34 +29,39 @@ body{
 
 /*____________________________________________________________________________________________________*/
 header{
+    margin: 10px 0;
     height: 100vh;
 }
 .redes-sociales > ul{
     display: flex;
     justify-content: center;
 }
+.fa-brands{
+    color: #c7c7c7;
+    padding: 0 5px;
+}
 .titulo{
     text-align: center;
     letter-spacing: 0.25em;
-
+    margin-bottom: 50px;
 }
-.titulo > .titulo1{
+.titulo1{
     font-size: 28px;
     font-weight: 700;
+    margin: 15px 0;
 }
-.titulo > .titulo2{
+.titulo2{
     font-size: 13px;
     font-weight: 300;
+    margin: 20px 0;
 }
-.titulo > .titulo3{
+.titulo3{
     font-size: 9px;
     font-weight: 300;
 }
-
 .navbar{
     display: none;
 }
-
 .burger-menu{
     position: fixed;
     top: 30px;
@@ -64,7 +71,6 @@ header{
     position: fixed;
     right: 20px;
 }
-
 .burger-links{
     display: none;
     background-color: white;
@@ -79,19 +85,90 @@ header{
     z-index: 1;
     padding-right: 10%;
 }
-
 .intro-slide > a > img{
     width: 100vw;
-    display: none;
+    /* display: none; */
+    -webkit-transition: background-image 650ms ease-in-out;
+    transition: background-image 650ms ease-in-out;
+}
+
+/*____________________________________________________________________________________________________*/
+.look, .ofertas{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.look-img{
+    width: 100vw;
+}
+
+
+
+/*____________________________________________________________________________________________________*/
+.misc{
+    display: flex;
+    align-items: center;
+}
+.misc > img{
+    width: 50px;
+    height: 40px;
+}
+
+
+
+/*____________________________________________________________________________________________________*/
+.seccion4-contato{
+    background-color: #c0cbed;
+}
+.contacto{
+    text-align: center;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.form > input, .form > textarea{
+    align-items: center;
+    width: 90vw;
+    resize: vertical;
+    font-size: 12px;
+    padding: 3px;
+}
+.div-button{
+    display: flex;
+    justify-content: flex-end;
+    width: 90vw;
+}
+.enviar-button{
+    background-color: #c7c7c7;
+    color: #ffffff;
+    border: none;
+    font-size: 12px;
+    font-family: sans-serif;
+    width: 40px;
+    height: 26px;
+}
+
+
+
+/*____________________________________________________________________________________________________*/
+footer{
+    background-color: #8f96b3;
 }
 
 
 
 
+/*____________________________________________________________________________________________________*/
 @media (min-width:768px){
     
 }
 
+
+
+/*____________________________________________________________________________________________________*/
 @media(min-width:1024px){
     .burger-menu, .burger-links{
         display: none;

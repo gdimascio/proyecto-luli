@@ -61,10 +61,10 @@
 
         <div>
             <div class="intro-slide"><a href="#"><img src="./public/img/img1.png" alt=""></a></div>
-            <div class="intro-slide"><a href="#"><img src="./public/img/img2.png" alt=""></a></div>
+            <!-- <div class="intro-slide"><a href="#"><img src="./public/img/img2.png" alt=""></a></div>
             <div class="intro-slide"><a href="#"><img src="./public/img/img3.png" alt=""></a></div>
             <div class="intro-slide"><a href="#"><img src="./public/img/img4.png" alt=""></a></div>
-            <div class="intro-slide"><a href="#"><img src="./public/img/img5.png" alt=""></a></div>
+            <div class="intro-slide"><a href="#"><img src="./public/img/img5.png" alt=""></a></div> -->
             
             <div>
                 <ul class="dots">
@@ -74,18 +74,99 @@
                     <li class=""><span></span></li>
                 </ul>
             </div>
+            <!-- <script>
+                let metodoIndex = 0;
+                var time = 5000;
+                showMetodo();
+                window.onload = showMetodo();
+            </script> -->
         </div>
     </header>
     
 
     <main>
-        <section>
-
+        <!-- Seccion 1: Looks -->
+        <section class="seccion1-looks">
+            <div class="look-beba look">
+                <img src="./public/img/beba1.png" alt="" class="look-img">
+                <a href="#" class="comprar-beba">Comprar</a>
+            </div>
+            <div class="look-bebe look">
+                <img src="./public/img/bebe1.png" alt="" class="look-img">
+                <a href="#" class="comprar-bebe">Comprar</a>
+            </div>
+            <div class="look-bebe look">
+                <img src="./public/img/accesorios1.png" alt="" class="look-img">
+                <a href="#" class="comprar-accesorios">Comprar</a>
+            </div>
         </section>
+
+        <!-- Seccion 2: Ofertas -->
+        <section class="seccion2-ofertas">
+            <div class="new-in ofertas">
+                <img src="" alt="">
+                <h3>New In!</h3>
+                <p>Descubrí los nuevos diseños de esta temporada</p>
+                <a href="#">Descubrir</a>
+            </div>
+
+            <div class="tej-temp ofertas">
+                <img src="" alt="">
+                <h3>Tejidos de Temporada</h3>
+                <p>Encontrá los tejidos mas lindos, suaves y calentitos</p>
+                <a href="#">Descubrir</a>
+            </div>
+        </section>
+
+        <!-- Seccion 3: Misc -->
+        <section class="seccion3-misc">
+            <span></span>
+            <div class="misc talles">
+                <img src="" alt="Img-remera">
+                <div >
+                    <h4>Tabla de talles</h4>
+                    <a href="#"><i class="fa-solid fa-chevron-right"></i>Ver tabla</a>
+                </div>
+            </div>
+            <div class="misc cambios">
+                <img src="" alt="Img-dev">
+                <div>
+                    <h4>Cambios y devoluciones</h4>
+                    <a href="#"><i class="fa-solid fa-chevron-right"></i>Ver condiciones</a>
+                </div>
+            </div>
+            <div class="misc envios">
+                <img src="" alt="Img-envio">
+                <div>
+                    <h4>Envíos a todo el país</h4>
+                    <a href="#"><i class="fa-solid fa-chevron-right"></i>Ver detalle</a>    
+                </div>
+            </div>
+        </section>
+
+        <!-- Seccion 4: Contacto -->
+        <section class="seccion4-contato">
+            <h3 class="contacto">Contacto</h3>
+            <form action="https://formspree.io/f/xoqrzbzr" method="post" class="form">
+                <input type="email" name="mail" id="mail" required placeholder="Email *">
+                <input type="text" name="nombre" id="nombre" required placeholder="Nombre *" >
+                <input type="asunto" name="asunto" id="asunto" placeholder="Asunto">
+                <textarea name="mensaje" id="mensaje" placeholder="Mensaje:"></textarea>
+                <div class="div-button">
+                    <button class="enviar-button button" type="submit">Enviar</button>
+                </div>
+            </form>
+            </section>
     </main>
 
     <footer>
-
+        <div class="redes-sociales">
+            <ul>
+                <li><a href="#" class="facebook"><i class="fa-brands fa-facebook"></i></a></li>
+                <li><a href="#" class="mail"><i class="fa-solid fa-envelope"></i></a></li>
+                <li><a href="#" class="instagram"><i class="fa-brands fa-instagram-square"></i></a></li>
+            </ul>
+        </div>
     </footer>
 </body>
 </html>

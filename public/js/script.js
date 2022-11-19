@@ -8,6 +8,8 @@ function display_menu(menu){
     }
 }
 
+
+
 function currentPrecio(n) {
     showPrecio(precioIndex = n);
 }
@@ -24,11 +26,9 @@ function showPrecio(n) {
     // menu[precioIndex-1].className += " active";
 }
 
-// script reemplazado por animacion */
 function showMetodo(){
-    let metodos = document.getElementsByClassName("metodologia-checkbox-topic");
-    if(metodoIndex > metodos.length-1){metodoIndex = 0; 
-    }
+    let metodos = document.getElementsByClassName("intro-slide");
+    if(metodoIndex > metodos.length-1) { metodoIndex = 0; }
     for (i = 0; i < metodos.length; i++) {
         metodos[i].style.display = "none";  
     }
